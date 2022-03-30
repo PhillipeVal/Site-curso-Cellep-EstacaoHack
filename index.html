@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site Cel.Lep</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- Icones Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body class="h-100 d-flex flex-column">
+ <header class="sticky-top">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3">
+      <!--   logo     -->
+      <img src="https://br.cellep.com/wp-content/themes/cellep/assets/img/logo_branca.svg" alt="Cel.Lep">
+
+      <!-- Button  -->
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegacao2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Lista de navegação -->
+      <div class="collapse navbar-collapse" id="navegacao2">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="agenda.html" class="nav-link">
+              Agenda
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+              Entidades
+            </a>
+            <!--  Lista de Elementos do Menu Dropdown  -->
+           <div class="dropdown-menu bg-dark">
+             <a target="_blank" href="https://br.cellep.com" class="dropdown-item text-white">
+              <i class="bi bi-file-earmark-person me-2"></i>Cel.Lep
+             </a>
+             <a target="_blank" href="https://estacaohack.fb.com" class="dropdown-item text-white">
+                <i class="bi bi-facebook me-2"></i>Estação Hack
+             </a>
+           </div>    
+          </li>
+          <li class="nav-item">
+            <a href="area_aluno.html" class="nav-link">
+              Área do Aluno
+            </a>
+          </li>
+        </ul>        
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="d-flex align-items-center text-center text-white bg-imagem">
+      <div class="container-fluid">
+        <p>
+          Transformando vidas por meio da educação
+        </p>
+      </div>
+    </div>
+    <section class="container">
+      <div class="row my-4">
+        <div class="col-mid-12">
+          <h2 class="text-warning text-center">
+            Conheça nossos cursos
+          </h2>
+        </div>
+      </div>   
+        <div class="row">
+<!--     Frontend       -->
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" class="card-img-top" alt="Codigo Frontend">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Web Dev - Frontend</h5>
+              <p class="card-text">O desenvolvimento front-end da web é o desenvolvimento da interface gráfica do usuário de um site, por meio do uso de HTML, CSS e JavaScript, para que os usuários possam visualizar e interagir com aquele site.</p>
+              <a target="_blank" href="https://br.cellep.com/estacao-hack-sp" class="btn btn-outline-primary">
+                Saiba mais
+              </a>
+            </div>
+          </div>
+        </div>
+<!--     Backend          -->
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+           <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2018/01/16/05/56/idea-3085367_960_720.jpg" class="card-img-top" alt="Lampada Pensante">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Web Dev - Backend Node.js</h5>
+              <p class="card-text">O desenvolvimento back-end cuida das engrenagens de uma aplicação web, criando códigos para que as funções do site sejam executadas. Como o próprio nome sugere, é um trabalho de bastidores.</p>
+              <a target="_blank" href="https://br.cellep.com/estacao-hack-sp" class="btn btn-outline-primary">
+                Saiba mais
+              </a>
+            </div>
+          </div>      
+
+       </div>
+<!--     React-Native & Expo       -->
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2016/02/07/21/03/computer-1185626_960_720.jpg" class="card-img-top" alt="Digitando">
+            <div class="card-body">
+              <h5 class="card-title text-warning">App Dev - React-Native & Expo</h5>
+              <p class="card-text">Expo é um framework e uma plataforma para aplicações React universais . É um conjunto de ferramentas e serviços construídos em torno de plataformas nativas e React Native que ajudam você a desenvolver, construir, implantar e iterar rapidamente em aplicativos iOS, Android e web a partir da mesma base de código JavaScript/TypeScript.</p>
+              <a target="_blank" href="https://br.cellep.com/estacao-hack-sp" class="btn btn-outline-primary">
+                Saiba mais
+              </a>
+            </div>
+          </div>
+        </div>
+<!--    Ux/Ui - App      -->
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2015/05/28/14/38/ux-787980_960_720.jpg" class="card-img-top" alt="Escrevendo PostIt">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Ux/Ui - App </h5>
+              <p class="card-text">anto em User Experience (UX) quanto User Interface (UI), a excelente experiência do usuário/cliente é a chave-mestra. A área de UX trata de como uma pessoa se sente enquanto usa qualquer produto ou serviço, digital ou não, oferecido pela sua empresa e tem a ver com a sensação dessa pessoa, depois deste uso.</p>
+              <a target="_blank" href="https://br.cellep.com/estacao-hack-sp" class="btn btn-outline-primary">
+                Saiba mais
+              </a>
+            </div>
+          </div>
+        </div>
+<!--    Ux/Ui - Web    -->
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+           <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2015/05/31/13/45/young-woman-791849_960_720.jpg" class="card-img-top" alt="Caneta na Boca">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Ux/Ui - Web </h5>
+              <p class="card-text">anto em User Experience (UX) quanto User Interface (UI), a excelente experiência do usuário/cliente é a chave-mestra. A área de UX trata de como uma pessoa se sente enquanto usa qualquer produto ou serviço, digital ou não, oferecido pela sua empresa e tem a ver com a sensação dessa pessoa, depois deste uso.</p>
+              <a target="_blank" href="https://br.cellep.com/estacao-hack-sp" class="btn btn-outline-primary">
+                Saiba mais
+              </a>
+            </div>
+          </div>      
+
+       </div>
+<!--    Inglês Instrumental      -->
+        <div class="col-md-4 shadow p-3 mb-5 rounded">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/08/01/00/38/man-2562325_960_720.jpg" class="card-img-top" alt="Escrevendo Agenda">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Inglês Instrumental</h5>
+              <p class="card-text">Inglês instrumental é uma metodologia que direciona os estudos do inglês para um objetivo profissional específico. A técnica é focada em atender as demandas linguísticas de uma área específica, como medicina, tecnologia da informação, turismo e entre outras.</p>
+              <a target="_blank" href="https://br.cellep.com/estacao-hack-sp" class="btn btn-outline-primary">
+                Saiba mais
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer bg-dark mt-auto py-2">
+    <div class="container text-center pt-2">
+      <span class="text-white fst-italic">
+        Todos os direitos reservados ©
+      </span>
+    </div>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>
